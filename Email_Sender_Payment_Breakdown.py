@@ -43,7 +43,7 @@ class EmailSender:
                 'Currency', 'Approval Status', 'Admin Reason', 'Tutor Reason']
         msg = MIMEMultipart('related')
 
-        msg['Subject'] = "[Easyke] " + self.month + " Payment Breakdown"
+        msg['Subject'] = "[XXX] " + self.month + " Payment Breakdown"
         msg['From'] = self.usr
         msg['To'] = tutor_email
         html_text = """\
